@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Riju Portfolio Website</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet"
+    herf="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css"
+    integrity="sha256-46qynGKALSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <script src="https://use.fontawesome.com/d2c59c862c.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Photos\logo.png">
+            <strong>Mondal</strong>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            My,<strong>Achievements</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"><b>Certificates & All</b></p>
+        <img src="Photos\achievement.jpg" alt="a picture of trophy" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <ul>
+            <h2>Key Achievements</h2>
+            <li>Ranked 13000 in Facebook Hacker Cup 2021 Qualification Round</li>
+            <li>Ranked 3500 in Google Kickstart Round E 2021</li>
+            <li>Achieved 5 Star in C++ Language Proficiency in HackerRank</li>
+        </ul>
+    </div>
+
+
+    <!-- Certificates -->
+    <section class="my-project" id="project">
+        <h2 class="section__title">My Certificates</h2>
+        <p class="section__subtitle section__subtitle--project">A Collection of My Certificates</p>
+
+        <div class="portfolio">
+            <!--portfolio certificate1-->
+            <a href="certificate\kickstart.pdf" download="Kick Start 2021 Round E" class="portfolio__certificate">
+                <img src="Photos\c1.jpg" alt="Kickstart front picture" class="portfolio__img">
+            </a>
+
+            <!--portfolio certificate2-->
+            <a href="certificate\hackercup.pdf" download="Facebook Hacker Cup 2021"class="portfolio__certificate">
+                <img src="Photos\c2.jpg" alt="Hackercup front picture" class="portfolio__img">
+            </a>
+
+            <!--portfolio certificate-->
+            <a href="certificate\c++.pdf" download="C/C++ Training Certificate" class="portfolio__certificate">
+                <img src="Photos\c3.jpg" alt="intershala front picture" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <a href="rjmondl@gmail.com" class="footer__link">rjmondl@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="www.linkedin.com/in/rjmondl">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="www.github.com/riju1235">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

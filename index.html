@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Riju Portfolio Website</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet"
+    herf="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css"
+    integrity="sha256-46qynGKALSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <script src="https://use.fontawesome.com/d2c59c862c.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Photos\logo.png">
+            <strong>Mondal</strong>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Riju Mondal</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"><b>Aspiring Software Engineer</b></p>
+        <img src="Photos\riju2.jpg" alt="a picture of Riju" class="intro__img">
+    </section>
+    
+        <!--My Skills -->
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills">What I am Good at</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>C++ Programming and DSA</h3>
+                <p>
+                    C++ is an extension of the C programming language which supports the creation of classes. 
+                    It is used to create high-performance applications and provides us with a high level of control over computing resources.
+                    Data structure is a specific method of storing and organizing system data in order to use it efficiently.
+                </p>
+            </div> <!--closed skill1-->
+
+            <div class="skill">
+                <h3>HTML, CSS & JavaScript</h3>
+                <p>
+                    HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript. 
+                   CSS is used to control presentation, formatting, and layout. JavaScript is used to control the behavior of different elements
+                </p>
+            </div> <!--closed skill2-->
+
+            <div class="skill">
+                <h3>React(Basic) and Node.js</h3>
+                <p>
+                    React is used for developing user interfaces. It makes API calls and processes in-browser data.
+                    Node.js used as a back-end framework. It supports the Model–view–controller (MVC) framework.
+                    Node.js handles requests and authentication from the browser, make database calls, etc.
+                </p>
+            </div> <!--closed skill3-->
+        </div>
+        <a href="achievement.html" class="btn">Achievements</a>
+    </section>
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+        <h1 class="section__title section__title--about">Who I am</h1>
+        <p class="section__subtitle section__subtitle--about"><b>B.tech in Electrical Engineering</b></p>
+
+        <div class="about-me__body">
+            <p>Devoted myself into life long learning. Just graduating with bachelor degree in Electrical
+                Engineering with a huge passion in technology. I am quite good at C++ Programming Language
+                 and Data Structure & Algorithms. I also achieve five star in Hackerrank.</p>
+            <p>My real strength is my ability to learn and adapt the working environment easily.
+                Ready to grow by solving tough problems through technology.</p>
+        </div>
+
+        <img src="Photos\riju6.jpg" alt="a picture of Riju" class="about-me__img">
+    </section>
+
+    <!--My Projects-->
+    <section class="my-project" id="project">
+        <h2 class="section__title">My Projects</h2>
+        <p class="section__subtitle section__subtitle--project">A Collection of My Works</p>
+
+        <div class="portfolio">
+            <!--portfolio image1-->
+            <a href="#" class="portfolio__item">
+                <img src="Photos\taskify.jpg" alt="project front picture" class="portfolio__img">
+            </a>
+
+            <!--portfolio image2-->
+            <a href="#" class="portfolio__item">
+                <img src="Photos\foodco.jpg" alt="project front picture" class="portfolio__img">
+            </a>
+
+            <!--portfolio image3-->
+            <a href="#" class="portfolio__item">
+                <img src="Photos\project3.jpg" alt="project front picture" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="#home" class="footer__link">rjmondl@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="www.linkedin.com/in/rjmondl">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="www.github.com/riju1235">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
